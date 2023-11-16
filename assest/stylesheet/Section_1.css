@@ -3,4 +3,22 @@
     height: 800px;
     background-size: cover;
     background-image: url("../image/Section_1/Section_1-Bg_Image.jpg");
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#sec1_Img {
+    width: 10vw;
+}
+
+#sec1_HeadText{
+    color: white;
+    margin: 10px;
+
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+    font-weight: 600;
 }
