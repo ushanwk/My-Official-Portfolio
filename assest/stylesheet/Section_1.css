@@ -35,13 +35,21 @@
 #section_1>button{
     margin: 10px;
     background-color: #00C897;
-
+    border: none;
+    border-radius: 5px;
 }
 
 #section_1>button>h6{
-    margin: 6px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    margin-right: 12px;
+    margin-left: 12px;
     font-family: 'Poppins', sans-serif;
-    font-size: 12px;
+    font-size: 13px;
     font-weight: 400;
     color: white;
+}
+
+#section_1>button:hover{
+    background-color: #00AD82;
 }
