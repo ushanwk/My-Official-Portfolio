@@ -2,7 +2,7 @@ header{
     width: 100vw;
     height: 60px;
     background-color: white;
-    position: sticky;
+    position: fixed;
 
     display: flex;
     justify-content: space-between;
@@ -40,4 +40,25 @@ header>nav>ul>li{
 header>nav>ul>li>a {
     color: #757570;
     text-decoration: none;
+}
+
+#headerLinkedIn{
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    background-color: #00C897;
+}
+
+#headerInstergram{
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    background-color: #00C897;
+}
+
+#headerFb{
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    background-color: #00C897;
 }
