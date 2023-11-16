@@ -23,8 +23,25 @@
 }
 
 #sec1_SubText{
+    margin: 5px;
+    text-align: center;
+    width: 550px;
     color: #CAD3D5;
     font-family: 'Poppins', sans-serif;
     font-size: 12px;
     font-weight: 400;
+}
+
+#section_1>button{
+    margin: 10px;
+    background-color: #00C897;
+
+}
+
+#section_1>button>h6{
+    margin: 6px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: white;
 }
