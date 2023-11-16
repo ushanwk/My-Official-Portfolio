@@ -1,0 +1,6 @@
+header{
+    width: 100vw;
+    height: 75px;
+    background:rgba(255,255,255,0.4);
+    position:fixed;
+}
