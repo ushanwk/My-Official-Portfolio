@@ -1,0 +1,31 @@
+#section_2{
+    width: 100vw;
+    height: 790px;
+}
+
+#sec2_Container1 {
+    padding-top: 10vh;
+    display: flex;
+    height: 50vh;
+}
+
+#container1_left-section {
+    flex: 1;
+    background-color: #f0f0f0;
+    padding-left: 14vw;
+}
+
+#container1_right-section {
+    flex: 1;
+    background-color: #e0e0e0;
+    padding-right: 14vw;
+}
+
+
+#sec2_BorderText{
+    font-family: 'Poppins', sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    color: transparent;
+    -webkit-text-stroke: 2px #99A3A8;
+}
