@@ -1,7 +1,7 @@
 header{
     width: 100vw;
     height: 60px;
-    background-color: white;
+    background-color: transparent;
     position: fixed;
 
     display: flex;
@@ -18,7 +18,6 @@ header{
 }
 
 header>nav{
-    padding-right: 14vw;
     display: inline-block;
 }
 
@@ -42,23 +41,18 @@ header>nav>ul>li>a {
     text-decoration: none;
 }
 
-#headerLinkedIn{
-    width: 30px;
-    height: 30px;
-    border-radius: 100%;
-    background-color: #00C897;
+#logoNav{
+    padding-right: 14vw;
+    display: inline-block;
 }
 
-#headerInstergram{
-    width: 30px;
-    height: 30px;
-    border-radius: 100%;
-    background-color: #00C897;
+#logoNav>ul>li{
+    padding: 0.1vw;
 }
 
-#headerFb{
-    width: 30px;
-    height: 30px;
+.headerLogo{
+    height: 35px;
+    width: 35px;
     border-radius: 100%;
     background-color: #00C897;
 }
