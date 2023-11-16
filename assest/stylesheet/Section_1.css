@@ -1,6 +1,6 @@
 #section_1{
     width: 100vw;
-    height: 800px;
+    height: 790px;
     background-size: cover;
     background-image: url("../image/Section_1/Section_1-Bg_Image.jpg");
 
@@ -52,4 +52,30 @@
 
 #section_1>button:hover{
     background-color: #00AD82;
+}
+
+
+
+
+
+.arrow{
+    position: relative;
+    color: white;
+    top: 150px;
+}
+
+.bounce {
+    animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-30px);
+    }
+    60% {
+        transform: translateY(-15px);
+    }
 }
