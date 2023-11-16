@@ -1,6 +1,43 @@
 header{
     width: 100vw;
-    height: 75px;
-    background:rgba(255,255,255,0.4);
-    position:fixed;
+    height: 60px;
+    background-color: white;
+    position: sticky;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#headerLogo{
+    padding-left: 14vw;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+    display: inline-block;
+}
+
+header>nav{
+    padding-right: 14vw;
+    display: inline-block;
+}
+
+header>nav>ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+header>nav>ul>li{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    padding-right: 0.8vw;
+    padding-left: 0.8vw;
+    display: inline-block;
+}
+
+header>nav>ul>li>a {
+    color: #757570;
+    text-decoration: none;
 }
