@@ -81,7 +81,6 @@
 
 .sec2_WorkFlowContent{
     padding-top: 2px;
-    color: black;
     margin: 2px;
     font-family: 'Poppins', sans-serif;
     font-size: 12px;
@@ -95,13 +94,35 @@
 }
 
 #container2_left-section {
+    padding-left: 14vw;
     flex: 1.5;
-    background-color: #f0f0f0;
-    padding: 20px;
 }
 
 #container2_right-section {
+    padding-right: 16vw;
     flex: 2;
-    background-color: #e0e0e0;
-    padding: 20px;
+}
+
+#sec2_MyImg{
+    width: 400px;
+}
+
+#sec2_headTopic{
+    padding-top: 100px;
+    padding-bottom: 10px;
+    color: black;
+    margin: 2px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.sec2_para{
+    padding-top: 20px;
+    color: black;
+    margin: 2px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: #808080;
 }
