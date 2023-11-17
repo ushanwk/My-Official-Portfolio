@@ -158,3 +158,13 @@
     border-color: #00C897;
     color: #00C897;
 }
+
+#sec2_btn1:hover{
+    background-color: #00C897;
+    color: white;
+}
+
+#sec2_btn2:hover{
+    background-color: #6B6E74;
+    color: white;
+}
