@@ -126,3 +126,35 @@
     font-weight: 300;
     color: #808080;
 }
+
+.sec2_button-container {
+    padding-top: 30px;
+    text-align: left;
+}
+
+.sec2_button {
+    display: inline-block;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    margin: 2px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: 2px solid #6B6E74;
+    border-radius: 5px;
+    color: #333;
+    background-color: #fff;
+
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    color: #6B6E74;
+}
+
+#sec2_btn1{
+    border-color: #00C897;
+    color: #00C897;
+}
