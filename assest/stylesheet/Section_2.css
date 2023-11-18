@@ -9,14 +9,18 @@
     height: 43vh;
 }
 
+.sec2_con1Item{
+    box-sizing: border-box;
+    flex: 0 0 calc(50%);
+    text-align: center;
+}
+
 #container1_left-section {
-    flex: 1;
-    padding-left: 14vw;
+    padding-left: 12vw;
 }
 
 #container1_right-section {
-    flex: 1;
-    padding-right: 14vw;
+    padding-right: 12vw;
 }
 
 
@@ -41,18 +45,19 @@
 
 
 .sec2_grid-container {
-    padding-top: 10px;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 150px);
-    gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
 }
 
 .sec2_grid-item {
     border-radius: 10px;
-    border: 2px solid #E2E2E2;
+    box-sizing: border-box;
+    flex: 0 0 250px;
     padding: 20px;
+    border: 1px solid #ccc;
     text-align: center;
+
 
     display: flex;
     flex-direction: column;
