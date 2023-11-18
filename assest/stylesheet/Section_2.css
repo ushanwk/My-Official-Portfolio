@@ -1,12 +1,12 @@
 #section_2{
     width: 100vw;
-    height: 1000px;
+    height: 850px;
 }
 
 #sec2_Container1 {
     padding-top: 20vh;
     display: flex;
-    height: 43vh;
+    height: 350px;
 }
 
 .sec2_con1Item{
@@ -96,6 +96,7 @@
 #sec2_container2 {
     display: flex;
     height: 70vh;
+    height: 500px;
 }
 
 #container2_left-section {
