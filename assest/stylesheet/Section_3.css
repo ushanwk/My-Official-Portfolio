@@ -1,0 +1,30 @@
+#section_3{
+    padding-top: 30px;
+    padding-left: 14vw;
+    padding-right: 14vw;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#sec3_HeadText{
+    color: #00C897;
+    margin: 7px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+#sec3_SubText{
+    margin: 5px;
+    text-align: center;
+    width: 380px;
+    color: #6B6E74;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+
