@@ -94,7 +94,6 @@
 #sec2_container2 {
     display: flex;
     flex-wrap: wrap;
-    height: 70vh;
 }
 
 #container2_left-section {
