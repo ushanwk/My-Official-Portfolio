@@ -1,12 +1,11 @@
 #section_2{
     width: 100vw;
-    height: 850px;
 }
 
 #sec2_Container1 {
     padding-top: 20vh;
     display: flex;
-    height: 350px;
+    flex-wrap: wrap;
 }
 
 .sec2_con1Item{
@@ -16,11 +15,11 @@
 }
 
 #container1_left-section {
-    padding-left: 12vw;
+    padding-left: 14vw;
 }
 
 #container1_right-section {
-    padding-right: 12vw;
+    padding-right: 14vw;
 }
 
 
@@ -42,18 +41,17 @@
     color: #00C897;
 }
 
-
-
 .sec2_grid-container {
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
+    padding-left: 3vw;
 }
 
 .sec2_grid-item {
     border-radius: 10px;
     box-sizing: border-box;
-    flex: 0 0 250px;
+    flex: 0 0 210px;
     padding: 20px;
     border: 1px solid #ccc;
     text-align: center;
@@ -95,8 +93,8 @@
 
 #sec2_container2 {
     display: flex;
+    flex-wrap: wrap;
     height: 70vh;
-    height: 500px;
 }
 
 #container2_left-section {
