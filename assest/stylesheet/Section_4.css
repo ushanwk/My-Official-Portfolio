@@ -49,8 +49,7 @@
 .sec_4Grid-item{
     display: flex;
     justify-content: left;
-    padding: 15px;
-    padding-left: 18px;
+    padding: 25px;
 
     height: 300px;
     width: 336px;
@@ -60,4 +59,6 @@
     margin-bottom: 30px;
     box-sizing: border-box;
 }
+
+
 
