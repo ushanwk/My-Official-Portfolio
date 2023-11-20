@@ -42,6 +42,7 @@
 .sec_4Grid-container {
     padding-top: 40px;
     display: flex;
+   justify-content: center;
     flex-wrap: wrap;
     padding-bottom: 50px;
 }
@@ -52,6 +53,7 @@
     justify-content: left;
     padding: 30px;
 
+    background-color: white;
     height: 280px;
     width: 336px;
     border: 2px solid #E2E2E2;
