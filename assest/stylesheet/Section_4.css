@@ -40,7 +40,7 @@
 }
 
 .sec_4Grid-container {
-    padding-top: 70px;
+    padding-top: 40px;
     display: flex;
     flex-wrap: wrap;
     padding-bottom: 50px;
@@ -48,6 +48,7 @@
 
 .sec_4Grid-item{
     display: flex;
+    flex-direction: column;
     justify-content: left;
     padding: 25px;
 
@@ -58,6 +59,13 @@
     margin-right: 30px;
     margin-bottom: 30px;
     box-sizing: border-box;
+}
+
+.sec_4GridTopic{
+    padding-top: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
 }
 
 
