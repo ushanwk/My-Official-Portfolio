@@ -27,3 +27,81 @@
     font-size: 12px;
     font-weight: 400;
 }
+
+#sec_8Main{
+    padding-top: 30px;
+    padding-bottom: 50px;
+    padding-right: 14vw;
+    padding-left: 14vw;
+}
+
+.sec_8Grid-container{
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-bottom: 50px;
+}
+
+.sec_8Grid-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+
+    background-color: white;
+    height: 250px;
+    width: 240px;
+    border: 1px solid #E2E2E2;
+    border-radius: 10px;
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-bottom: 30px;
+    box-sizing: border-box;
+    box-shadow: 0 0 15px #EDEDED;
+
+    transition: box-shadow 0.8s ease;
+}
+
+.sec_8Grid-item:hover{
+    box-shadow: 0 0 15px #A3A3A3;
+}
+
+#sec_8FirstPr{
+    background-size: cover;
+    background-image: url("../image/section_8/Sec_8First.jpg");
+}
+
+#sec_8SecPr{
+    background-size: cover;
+    background-image: url("../image/section_8/Sec_8Second.jpg");
+}
+
+#sec_8ThirdPr{
+    background-size: cover;
+    background-image: url("../image/section_8/Sec_8Third.jpg");
+}
+
+#sec_8FourthPr{
+    background-size: cover;
+    background-image: url("../image/section_8/Sec_8Fourth.jpg");
+}
+
+#sec_8FifthPr{
+    background-size: cover;
+    background-image: url("../image/section_8/Sec_8Fifth.jpg");
+}
+
+#sec_8SixthPr{
+    background-size: cover;
+    background-image: url("../image/section_8/Sec_8Sicth.jpg");
+}
+
+#sec_8SeventhPr{
+    background-size: cover;
+    background-image: url("../image/section_8/Sec_8Seven.jpg");
+}
+
+#sec_8EighthPr{
+    background-size: cover;
+    background-image: url("../image/section_8/Sec_8Eight.jpg");
+}
