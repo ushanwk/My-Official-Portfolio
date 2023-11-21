@@ -2,7 +2,7 @@
     width: 100vw;
     height: 100vh;
     background-size: cover;
-    background-image: url("../image/Section_1/Section_1-Bg_Image.jpg");
+    background-image: url("../image/section_1/Section_1-Bg_Image.jpg");
 
     display: flex;
     flex-direction: column;

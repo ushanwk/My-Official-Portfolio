@@ -27,3 +27,15 @@
     font-size: 12px;
     font-weight: 400;
 }
+
+#sec_6Main{
+    padding-top: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#sec_6Main>img{
+    width: 650px;
+}
