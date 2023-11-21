@@ -5,23 +5,21 @@
 #sec2_Container1 {
     padding-top: 20vh;
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
+    padding-left: 14vw;
+    padding-right: 14vw;
 }
 
-.sec2_con1Item{
+.sec2_con1Item {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
     box-sizing: border-box;
     flex: 0 0 calc(50%);
     text-align: center;
 }
-
-#container1_left-section {
-    padding-left: 14vw;
-}
-
-#container1_right-section {
-    padding-right: 14vw;
-}
-
 
 #sec2_BorderText{
     margin: 0px;
@@ -43,9 +41,9 @@
 
 .sec2_grid-container {
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
     gap: 10px;
-    padding-left: 3vw;
 }
 
 .sec2_grid-item {

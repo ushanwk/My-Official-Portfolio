@@ -50,16 +50,6 @@
     box-sizing: border-box;
 }
 
-.sec_3Grid-item:last-child {
-    margin-right: 0;
-}
-
-@media (max-width: 768px) {
-    .sec_3Grid-item {
-        margin-right: 10px;
-    }
-}
-
 .sec_3RotateRec{
     height: 40px;
     width: 40px;
