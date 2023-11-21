@@ -85,6 +85,7 @@
 
 .textarea-container {
     width: 650px;
+    height: 120px;
     resize: none;
     overflow-y: auto;
 }
