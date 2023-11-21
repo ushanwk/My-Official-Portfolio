@@ -91,7 +91,6 @@
 
 .textarea-container {
     width: 650px;
-    height: 150px;
     resize: none;
     overflow-y: auto;
 }
@@ -134,6 +133,16 @@
     font-weight: 400;
     color: white;
 }
+
+.sec_10TxtFld{
+    outline: none;
+    border: none;
+}
+
+.sec_10TxtFld:focus{
+    border: 2px solid #00C897; !important;
+}
+
 
 
 
