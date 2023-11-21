@@ -1,6 +1,7 @@
 #section_10{
     margin-top: 80px;
     background-color: #F9FAFB;
+    padding-bottom: 50px;
 }
 
 #sec_10Topics{
@@ -49,13 +50,6 @@
     border: 1px solid #E2E2E2;
     border-radius: 10px;
     background-color: white;
-}
-
-.sec_10Column2{
-    flex: 1;
-    padding: 20px;
-    border: 1px solid #E2E2E2;
-    border-radius: 10px;
 }
 
 .sec_10TxtGridCon{
@@ -151,7 +145,7 @@
 }
 
 input:-webkit-autofill {
-    -webkit-box-shadow: 0 0 0 30px white inset; /* Change the background color */
+    -webkit-box-shadow: 0 0 0 30px white inset;
 }
 
 input{
@@ -161,6 +155,40 @@ input{
 }
 
 textarea{
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    font-weight: 300;
+}
+
+.sec_10Column2{
+    flex: 1;
+    padding-left: 20px;
+}
+
+.sec_10Grid-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sec_10Grid-item{
+    display: flex;
+    padding: 25px;
+
+    height: 75px;
+    width: 259px;
+    margin-bottom: 10px;
+    margin-right: 7px;
+    box-sizing: border-box;
+}
+
+#sec_10Info{
+    display: flex;
+    flex-direction: column;
+}
+
+.sec_10Detail{
+    margin: 0;
+    padding-left: 20px;
     font-family: 'Poppins', sans-serif;
     font-size: 13px;
     font-weight: 300;
