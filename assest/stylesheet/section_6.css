@@ -1,0 +1,29 @@
+#section_6{
+    padding-top: 70px;
+}
+
+#sec_6Topics{
+    padding-top: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#sec6_HeadText{
+    color: #00C897;
+    margin: 7px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+#sec6_SubText{
+    margin: 5px;
+    text-align: center;
+    width: 500px;
+    color: #6B6E74;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+}
