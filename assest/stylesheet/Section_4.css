@@ -42,7 +42,7 @@
 .sec_4Grid-container {
     padding-top: 40px;
     display: flex;
-   justify-content: center;
+    justify-content: center;
     flex-wrap: wrap;
     padding-bottom: 50px;
 }
