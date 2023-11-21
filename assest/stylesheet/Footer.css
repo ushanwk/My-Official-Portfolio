@@ -25,12 +25,25 @@ footer{
     height: 30px;
 }
 
+#footerMiddle{
+    display: flex;
+    justify-content: center;
+}
+
 #footerLogo{
     margin: 0;
     padding-top: 5px;
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
     font-size: 23px;
+    display: inline-block;
+    color: white;
+}
+
+#footerMiddleTxt{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
     display: inline-block;
     color: white;
 }
