@@ -1,0 +1,38 @@
+footer{
+    width: 100vw;
+    height: 60px;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.footerMain{
+    padding-left: 14vw;
+    padding-right: 14vw;
+}
+
+.footerGrid-container{
+    padding-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.footerGrid-item{
+    flex: 1;
+    height: 30px;
+}
+
+#footerLogo{
+    margin: 0;
+    padding-top: 5px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 23px;
+    display: inline-block;
+    color: white;
+}
+
+
