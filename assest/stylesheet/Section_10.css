@@ -136,11 +136,34 @@
 
 .sec_10TxtFld{
     outline: none;
-    border: none;
 }
 
 .sec_10TxtFld:focus{
     border: 2px solid #00C897; !important;
+}
+
+#sec_10NameTxt:focus{
+    border: 2px solid #00C897; !important;
+}
+
+#sec_10EmailTxt:focus{
+    border: 2px solid #00C897; !important;
+}
+
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 30px white inset; /* Change the background color */
+}
+
+input{
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    font-weight: 300;
+}
+
+textarea{
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    font-weight: 300;
 }
 
 
