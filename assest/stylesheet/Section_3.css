@@ -32,12 +32,12 @@
 .sec_3Grid-container {
     padding-top: 40px;
     display: flex;
+    justify-content: left;
     flex-wrap: wrap;
 }
 
 .sec_3Grid-item{
     display: flex;
-    justify-content: left;
     padding: 15px;
     padding-left: 18px;
 

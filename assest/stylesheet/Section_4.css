@@ -1,6 +1,6 @@
 #section_4{
     margin-top: 150px;
-    background-color: #F5F8F8;
+    background-color: #F9FAFB;
 }
 
 #section_4Main{
@@ -52,15 +52,22 @@
     flex-direction: column;
     justify-content: left;
     padding: 30px;
+    padding-top: 40px;
 
     background-color: white;
     height: 280px;
     width: 336px;
-    border: 2px solid #E2E2E2;
+    border: 1px solid #E2E2E2;
     border-radius: 10px;
     margin-right: 30px;
     margin-bottom: 30px;
     box-sizing: border-box;
+
+    transition: box-shadow 0.8s ease;
+}
+
+.sec_4Grid-item:hover{
+    box-shadow: 0 0 15px #CAD3D5;
 }
 
 .sec_4GridTopic{
