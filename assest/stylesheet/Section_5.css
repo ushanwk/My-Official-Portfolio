@@ -1,0 +1,50 @@
+#section_5{
+    height: 280px;
+    background-size: cover;
+    background-image: url("../image/section_5/Sec_5BG.png");
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#section_5>h1{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    color: white;
+}
+
+#section_5>p{
+    padding-top: 10px;
+    width: 500px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    color: #CAD3D5;
+}
+
+#section_5>button>h6{
+    margin-top: 6px;
+    margin-bottom: 6px;
+    margin-right: 12px;
+    margin-left: 12px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    color: white;
+}
+
+#section_5>button{
+    margin: 10px;
+    background-color: #00C897;
+    border: none;
+    border-radius: 5px;
+}
+
+#section_5>button:hover{
+    background-color: #00AD82;
+}
