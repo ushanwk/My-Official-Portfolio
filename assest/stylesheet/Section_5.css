@@ -2,6 +2,7 @@
     height: 280px;
     background-size: cover;
     background-image: url("../image/section_5/Sec_5BG.png");
+    margin-bottom: 50px;
 
     display: flex;
     flex-direction: column;
