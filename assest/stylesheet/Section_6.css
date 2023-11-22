@@ -29,7 +29,7 @@
 }
 
 #sec_6Main{
-    padding-top: 90px;
+    padding-top: 70px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -37,5 +37,5 @@
 }
 
 #sec_6Main>img{
-    width: 650px;
+    width: 600px;
 }

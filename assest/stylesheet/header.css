@@ -7,6 +7,15 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    z-index: 3;
+
+    transition: background-color 0.3s ease;
+}
+
+header.scrolled {
+    background-color: white;
+    color: black;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 #headerLogo{
