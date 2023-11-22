@@ -1,9 +1,10 @@
 #section_2{
+    margin: 0;
     width: 100vw;
+    margin-bottom: 150px;
 }
 
 #sec2_Container1 {
-    padding-top: 20vh;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
