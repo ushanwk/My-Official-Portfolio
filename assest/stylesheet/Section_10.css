@@ -134,15 +134,15 @@
 }
 
 .sec_10TxtFld:focus{
-    border: 2px solid #00C897; !important;
+    border: 1px solid #00C897; !important;
 }
 
 #sec_10NameTxt:focus{
-    border: 2px solid #00C897; !important;
+    border: 1px solid #00C897; !important;
 }
 
 #sec_10EmailTxt:focus{
-    border: 2px solid #00C897; !important;
+    border: 1px solid #00C897; !important;
 }
 
 input:-webkit-autofill {
