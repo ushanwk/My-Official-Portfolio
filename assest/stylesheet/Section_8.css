@@ -106,7 +106,11 @@
     background-image: url("../image/section_8/Sec_8Eight.jpg");
 }
 
-.overlay{
+.sec_8Overlay{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
     height: 250px;
     width: 239px;
     background: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0));
@@ -115,6 +119,26 @@
     transition: opacity 0.8s ease;
 }
 
-.overlay:hover{
+.sec_8Overlay:hover{
     opacity: 1;
+}
+
+.sec_8OverlayTopic{
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+    color: white;
+    margin: 0;
+    margin-top: 5px;
+}
+
+.sec_8OverlaySub{
+    font-family: 'Poppins', sans-serif;
+    font-size: 10px;
+    font-weight: 300;
+    color: grey;
+    margin-bottom: 20px;
+    margin: 5px;
+    margin-bottom: 20px;
+
 }
