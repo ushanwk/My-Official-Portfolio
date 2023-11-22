@@ -48,6 +48,8 @@
     flex-direction: column;
     justify-content: left;
 
+    text-decoration: none;
+
     background-color: white;
     height: 250px;
     width: 240px;
@@ -113,7 +115,7 @@
     align-items: center;
     height: 250px;
     width: 239px;
-    background: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0));
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0));
     border-radius: 10px;
     opacity: 0;
     transition: opacity 0.8s ease;
@@ -129,7 +131,7 @@
     font-weight: 300;
     color: white;
     margin: 0;
-    margin-top: 5px;
+    margin-top: 10px;
 }
 
 .sec_8OverlaySub{
