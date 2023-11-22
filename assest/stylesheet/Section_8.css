@@ -105,3 +105,16 @@
     background-size: cover;
     background-image: url("../image/section_8/Sec_8Eight.jpg");
 }
+
+.overlay{
+    height: 250px;
+    width: 239px;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0));
+    border-radius: 10px;
+    opacity: 0;
+    transition: opacity 0.8s ease;
+}
+
+.overlay:hover{
+    opacity: 1;
+}
