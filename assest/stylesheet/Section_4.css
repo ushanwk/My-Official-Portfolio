@@ -88,8 +88,9 @@
 }
 
 .sec_4GridReadMore{
-    padding-top: 25px;
-    margin: 0;
+    width: 70px;
+    margin-top: 25px;
+    padding-top: 0;
     font-family: 'Poppins', sans-serif;
     font-size: 13px;
     font-weight: 300;
