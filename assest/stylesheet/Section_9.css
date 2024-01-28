@@ -51,7 +51,7 @@
     padding: 30px;
 
     background-color: white;
-    height: 310px;
+    height: 380px;
     width: 400px;
     border: 1px solid #E2E2E2;
     border-radius: 10px;
@@ -61,4 +61,41 @@
     box-sizing: border-box;
 
     transition: box-shadow 1s ease;
+}
+
+.sec_9Topic{
+    margin: 0;
+    margin-top: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.sec_9Sub{
+    margin: 0;
+    margin-top: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    font-weight: 300;
+    text-align: center;
+    color: #6B6E74;
+}
+
+.sec_9Btn>h6{
+    margin-top: 6px;
+    margin-bottom: 6px;
+    margin-right: 12px;
+    margin-left: 12px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    color: white;
+}
+
+.sec_9Btn{
+    margin-top: 40px;
+    background-color: #00C897;
+    border: none;
+    border-radius: 5px;
 }
